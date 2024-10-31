@@ -4,5 +4,5 @@ from django.shortcuts import render, HttpResponse
 def show(request):
     return HttpResponse('Hello world haha');
 
-def not_show(request):
+def not_so(request):
     return HttpResponse("Not show");
